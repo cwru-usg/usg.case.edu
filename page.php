@@ -7,11 +7,11 @@
  */
  get_header(); ?>
 
-<div class="flex_66">
+<div class="flex_100">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <div class="post" id="post-<?php the_ID(); ?>">
     <h1>
-      <?php the_title(); ?>
+      <a href="<?php get_permalink(the_ID()); ?>"><?php the_title(); ?></a>
     </h1>
     <div class="entry">
       <?php the_content(); ?>
@@ -27,5 +27,4 @@
 </div>
 </div>
 <?php endwhile; endif; ?>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

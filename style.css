@@ -97,6 +97,7 @@ body {
 .flex_100 {
 	width: 99%;
 	padding: .5%;
+  clear: both;
 }
 .flex_vert_pad {
 	padding: 10px 0px 15px 0px;
