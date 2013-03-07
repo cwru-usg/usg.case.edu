@@ -230,33 +230,33 @@ body {
 /* ---------------------------------------------------------- */
 
 #sidebar {
-	margin: 20px 0px 0px 20px;
+  margin: 20px 0px 0px 20px;
 }
 #sidebar img {
-	max-width: 100%;
+  max-width: 100%;
 }
 #pages, #archives, #categories, #feeds, #sidebarmeta, #blogroll {
-	margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
-.sidebaritem {
-	padding: 0px 0px 10px 0px;
-	margin: 0px 0px 10px 0px;
-	border-bottom: 1px dotted #ccc;
+#sidebar div, #sidebar table {
+  padding: 0px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
+  border-bottom: 1px dotted #ccc;
 }
 #sidebar ul {
-	list-style-type: none;
-	padding: 0px 0px 0px 0px;
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
 }
 .no-widgets h2 {
-	margin: 15px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
 }
 #sidebar ul li {
-	padding: 0px 0px 0px 0px;
-	margin: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
 }
 #sidebar #h3 {
-	padding: 20px;
-	margin: 0px;
+  padding: 20px;
+  margin: 0px;
 }
 /* Post */
 /* ---------------------------------------------------------- */
