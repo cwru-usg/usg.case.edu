@@ -108,7 +108,33 @@ body {
 /* ---------------------------------------------------------- */
 
 #header {
-	height: 120px;
+  height: 160px;
+}
+#header #logo {
+  float: left;
+  margin-right: 30px;
+}
+#header h1 {
+  font-weight: bolder;
+  margin: 30px 0px 0px 0px;
+  padding: 10px 20px 10px 0px;
+  float: left;
+}
+#header h1 a {
+  color: black;
+  font-size: 36px;
+  letter-spacing: -2.5px;
+  text-decoration: none;
+}
+#header h1 a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.description {
+  color: #777777;
+  float: left;
+  font-variant: small-caps;
+  font-weight: lighter;
 }
 /* Navigation */
 /* ---------------------------------------------------------- */
@@ -570,29 +596,6 @@ a:focus, a:active, a:hover {
 }
 h2, h3, h4, h5, h6 {
 	padding: 0px 0px 0px 0px;
-}
-#header h1 {
-	font-weight: bolder;
-	margin: 45px 0px 0px 0px;
-	padding: 10px 20px 10px 0px;
-	border-right: 1px solid #ccc;
-	float: left;
-}
-#header h1 a {
-	color: black;
-	font-size: 42px;
-	letter-spacing: -2.5px;
-	text-decoration: none;
-}
-#header h1 a:hover {
-	color: #333;
-	text-decoration: none;
-}
-.description {
-	color: #777777;
-	float: left;
-	margin: 55px 0px 0px 0px;
-	padding: 0px 0px 0px 20px;
 }
 .bread-crumb {
 	color: #777777;

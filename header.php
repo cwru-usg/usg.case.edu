@@ -15,7 +15,8 @@
 <?php if (is_search()) { ?>
 <meta name="robots" content="noindex, nofollow" />
 <?php } ?>
- <title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title><link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
+ <title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
+ <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
@@ -24,6 +25,9 @@
 <div class="outer_wrap">
 <div class="inner_wrap">
 <div id="header" class="flex_100">
+  <a href='/'>
+    <img id="logo" src='<?php bloginfo('template_directory'); ?>/images/usg-logo.png' />
+  </a>
   <h1><a href="<?php echo home_url(); ?>/">
     <?php bloginfo('name'); ?>
     </a></h1>
@@ -33,7 +37,4 @@
 </div>
 <div id="navigation" class="flex_100">
   <?php wp_nav_menu(); ?>
-  <div id="search">
-    <?php get_search_form(); ?>
-  </div>
 </div>
