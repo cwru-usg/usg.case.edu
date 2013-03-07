@@ -65,6 +65,7 @@ function simonwpframework_widgets_init() {
     'before_title' => '<h3>',
     'after_title' => '</h3>',
   ));
+  /*
   register_sidebar(array(
     'id' => 'footer-1',
     'name' => 'Footer1',
@@ -89,6 +90,7 @@ function simonwpframework_widgets_init() {
     'before_title' => '<h3>',
     'after_title' => '</h3>',
   ));
+ */
 }
 add_action ( 'widgets_init', 'simonwpframework_widgets_init' );
 

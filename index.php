@@ -6,7 +6,8 @@
  * @since Simon WP Framework 1.0
  */
 
-get_header(); ?>
+get_header();
+?>
 
 <div class="alpha flex_100">
 </div>

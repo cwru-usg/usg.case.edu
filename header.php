@@ -35,6 +35,7 @@
     <?php bloginfo('description'); ?>
   </div>
 </div>
+<?php echo do_shortcode( '[responsive_slider]' ); ?>
 <div id="navigation" class="flex_100">
   <?php wp_nav_menu(); ?>
 </div>

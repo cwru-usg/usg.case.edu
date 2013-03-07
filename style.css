@@ -136,6 +136,9 @@ body {
   font-variant: small-caps;
   font-weight: lighter;
 }
+.responsive-slider {
+  height: 250px;
+}
 /* Navigation */
 /* ---------------------------------------------------------- */
 #navigation {
