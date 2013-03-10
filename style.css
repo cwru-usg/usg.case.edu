@@ -636,6 +636,7 @@ h1 {
 	margin: 0px;
 }
 h1 a {
+  color: #666;
 	line-height: 29px;
 }
 h2 {
@@ -646,6 +647,7 @@ h2 {
 	letter-spacing: -.5px;
 	margin: 0px;
 	font-weight: 300;
+  line-height: 1.8em;
 }
 h3 {
 	font-size: 18px;
